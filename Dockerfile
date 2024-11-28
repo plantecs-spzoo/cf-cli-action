@@ -1,4 +1,4 @@
-FROM ubuntu:23.04
+FROM ubuntu
 
 RUN apt-get update
 RUN apt-get install -y ca-certificates jq
